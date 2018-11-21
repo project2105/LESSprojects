@@ -1,0 +1,34 @@
+body {
+  background: red;
+}
+header {
+  height: 85px;
+}
+#logo {
+  height: 97.5px;
+}
+div {
+  height: 200px;
+  width: 100px;
+}
+div:hover {
+  background: blue;
+}
+div img {
+  height: 50px;
+  width: 50px;
+}
+#main-image {
+  border: 1px solid blue;
+  padding: 10px;
+}
+#main-image:hover {
+  border-color: black;
+}
+#secondary-image {
+  border: 1px solid blue;
+  padding: 10px;
+}
+#secondary-image:hover {
+  border-color: black;
+}

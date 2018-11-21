@@ -1,0 +1,22 @@
+{
+  "name": "lessprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project2105/LESSprojects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/project2105/LESSprojects/issues"
+  },
+  "homepage": "https://github.com/project2105/LESSprojects#readme",
+  "dependencies": {
+    "less": "^3.8.1"
+  }
+}

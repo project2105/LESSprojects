@@ -1,0 +1,44 @@
+@primary-color: red;
+@height: 65px;
+@smaller: @height - 10px;
+@larger: @height * 1.5;
+
+body {
+    background: @primary-color;
+}
+
+header {
+    @height: 85px;
+    height: @height;
+}
+
+#logo {
+    height: @larger;
+}
+
+div {
+    height: 200px;
+    width: 100px;
+    &:hover {
+        background: blue;
+    }
+    img {
+      height: 50px;
+      width: 50px;
+    }
+}
+.box-border(@width) {
+    border: @width solid blue;
+    padding: @width * 10;
+    &:hover {
+        border-color: black;
+    }
+}
+
+#main-image {
+    .box-border (1px);
+}
+
+#secondary-image {
+    .box-border (1px);
+}
